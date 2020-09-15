@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coe528.project.CustomerGUI">
+   <children>
+      <Button fx:id="depositbutton" layoutX="447.0" layoutY="118.0" mnemonicParsing="false" onAction="#deposit" text="Deposit" />
+      <Button fx:id="withdrawbutton" layoutX="447.0" layoutY="170.0" mnemonicParsing="false" onAction="#withdraw" text="Withdraw" />
+      <Button fx:id="purchasebutton" layoutX="447.0" layoutY="218.0" mnemonicParsing="false" onAction="#onlinePurchase" text="Purchase" />
+      <Button fx:id="checkbalancebutton" layoutX="138.0" layoutY="273.0" mnemonicParsing="false" onAction="#currentBalance" prefHeight="54.0" prefWidth="139.0" text="Check Balance" />
+      <Button fx:id="logoutbutton" layoutX="365.0" layoutY="273.0" mnemonicParsing="false" onAction="#logout" prefHeight="54.0" prefWidth="139.0" text="Logout" />
+      <Label layoutX="158.0" layoutY="122.0" text="Deposit ($): " />
+      <Label layoutX="147.0" layoutY="174.0" text="Withdraw ($): " />
+      <Label layoutX="113.0" layoutY="222.0" text="Online Purchase ($): " />
+      <TextField fx:id="depositmoney" layoutX="248.0" layoutY="120.0" promptText="deposit" />
+      <TextField fx:id="withdrawmoney" layoutX="248.0" layoutY="172.0" promptText="withdraw" />
+      <TextField fx:id="onlinepurchasemoney" layoutX="248.0" layoutY="220.0" promptText="purchase" />
+      <Label layoutX="268.0" layoutY="69.0" text="Welcome Customer!" />
+      <Label layoutX="365.0" layoutY="14.0" text="Created &amp; Desgined By: Daniel Osawaru" />
+      <Label fx:id="level" layoutX="392.0" layoutY="353.0" prefHeight="18.0" prefWidth="224.0" />
+      <Label fx:id="output" layoutX="46.0" layoutY="353.0" prefHeight="18.0" prefWidth="332.0" />
+   </children>
+</AnchorPane>
