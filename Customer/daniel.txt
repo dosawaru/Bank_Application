@@ -1,0 +1,3 @@
+Username: daniel
+Password: 1234
+Balance: 100.0
